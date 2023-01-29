@@ -32,4 +32,4 @@ The `applyOp` method takes an operator, `op`, and two operands, `a` and `b`, and
 
 **Note:** The calculator only supports basic arithmetic operations such as *addition, subtraction, multiplication, and division*. It also supports the use of parentheses.
 
-For the full explanation of the project, visit the [link](https://iq.opengenus.org/p/cdfbbe7f-557d-40f4-9a19-3e6eee593e67/).
+For the full explanation of the project, visit the [link](https://iq.opengenus.org/calculator-console-application-in-java/).
