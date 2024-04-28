@@ -21,7 +21,7 @@ public class main {
                 System.out.println("You have exited the calculator.\nBye.");
                 break;
             }
-            if (input.charAt(0) == '+' || input.charAt(0) == '-' || input.charAt(0) == '*' || input.charAt(0) == '/') {
+            if (!input.isEmpty() && (input.charAt(0) == '+' || input.charAt(0) == '-' || input.charAt(0) == '*' || input.charAt(0) == '/')) {
                 input = prevResult + input;
             }
             prevResult = helper.evaluate(input);
